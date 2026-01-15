@@ -1,0 +1,65 @@
+[
+  {
+    "id": "001",
+    "nome": "Vestido Vermelho",
+    "preco": 5000,
+    "descricao": "Vestido elegante para ocasiões especiais.",
+    "imagem": "IMG_1503.JPG",
+    "tamanhos": ["S", "M", "L"],
+    "cores": ["vermelho"]
+  },
+  {
+    "id": "002",
+    "nome": "Conjunto Azul Claro",
+    "preco": 5000,
+    "descricao": "Conjunto casual para o dia a dia.",
+    "imagem": "4.jpg",
+    "tamanhos": ["M", "L"],
+    "cores": ["azul"]
+  },
+  {
+    "id": "003",
+    "nome": "Blusa Primavera",
+    "preco": 3000,
+    "descricao": "Blusa leve e confortável para dias quentes.",
+    "imagem": "IMG_2051.JPG",
+    "tamanhos": ["S", "M", "L"],
+    "cores": ["floral"]
+  },
+  {
+    "id": "004",
+    "nome": "Macacão Rosado",
+    "preco": 5000,
+    "descricao": "Macacão moderno com corte elegante.",
+    "imagem": "IMG_6522.JPG",
+    "tamanhos": ["M", "L"],
+    "cores": ["rosa"]
+  },
+  {
+    "id": "005",
+    "nome": "Conjunto Dior",
+    "preco": 5000,
+    "descricao": "Conjunto inspirado na alta costura Dior.",
+    "imagem": "b_Edited.jpg",
+    "tamanhos": ["S", "M", "L"],
+    "cores": ["preto", "branco"]
+  },
+  {
+  "id": "006",
+  "nome": "conjunto Floral Longo",
+  "preco": 7000,
+  "descricao": "conjunto com estampa floral, ideal para eventos ao ar livre.",
+  "imagem": "45.jpg",
+  "tamanhos": ["S", "M", "L", "XL"],
+  "cores": ["floral", "verde", "branco"]
+},
+{
+  "id": "007",
+  "nome": "Camisa casual Masculina",
+  "preco": 4500,
+  "descricao": "Camisa casual clássica em algodão, perfeita para ocasiões informais.",
+  "imagem": "1765133472800.jpg",
+  "tamanhos": ["M", "L", "XL"],
+  "cores": ["branco", "azul claro"]
+}
+]

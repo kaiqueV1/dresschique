@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DRESS CHIQUE - Perfil do Usuário</title>
+  <link rel="stylesheet" href="css/style3.css" />
+  <!-- Ícones do Google -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="header-container">
+      <!-- Logo -->
+      <h1 class="logo">DRESS CHIQUE</h1>
+
+      <!-- Navegação + ícone -->
+      <nav>
+        <ul class="navmenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li>
+            <a href="perfil.html" title="Perfil do Usuário" class="profile-icon">
+              <span class="material-icons">account_circle</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <section class="main-profile">
+    <div class="container">
+      <h2>Perfil do Usuário</h2>
+      
+      <!-- Foto e dados -->
+      <div class="profile-info">
+        <img src="/imagens/ft prfil1.jpg" alt="Foto de perfil" class="profile-pic">
+        <p><strong>Nome:</strong> Maria Silva</p>
+        <p><strong>Email:</strong> maria.silva@example.com</p>
+      </div>
+
+      <!-- Formulário de edição -->
+      <form>
+        <label for="phone">Telefone</label>
+        <input type="text" id="phone" placeholder="Digite seu telefone" value="(+244) 912-345-678">
+        
+        <label for="address">Endereço</label>
+        <input type="text" id="address" placeholder="Digite seu endereço" value="Luanda, Angola">
+        
+        <label for="birthdate">Data de nascimento</label>
+        <input type="date" id="birthdate" value="1995-06-15">
+        
+        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+      </form>
+
+      <!-- Ações -->
+      <div class="social-btn">
+        <button>Alterar Foto</button>
+        <button onclick="window.location.href='index.html'" class="btn btn-secondary">Sair da Conta</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-section center-footer">
+      <h2>DRESS CHIQUE</h2>
+      <hr />
+      <p>Angola, Luanda - Benfica 12401</p>
+      <p>© 2026 Dress Chique. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
